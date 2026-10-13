@@ -1,0 +1,7 @@
+# dsh-desktop-clock: bundle patch layer.
+# Applied as one layer when this package is part of the profile's bundle stack
+# (or inserted directly by the profile patch layer).
+
+- insert:
+    - id: desktop-clock
+      name: dsh-desktop-clock
